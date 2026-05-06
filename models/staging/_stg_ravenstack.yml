@@ -1,0 +1,26 @@
+models:
+  - name: stg_accounts
+    description: "Staging models for Ravenstack Analytics"
+    columns:
+      - name: account_id
+        data_tests:
+          - not_null
+          - unique
+      - name: referral_source
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['organic', 'ads', 'event', 'other', 'partner']
+  
+  - name: stg_subscriptions
+    description: "Staging models for Ravenstack Analytics"
+    columns:
+      - name: subscription_id
+        data_tests:
+          - not_null
+          - unique
+      - name: plan_tier
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['Basic', 'Pro', 'Enterprise']

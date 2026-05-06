@@ -37,6 +37,7 @@ select ar.account_id,
     s.plan_tier,
     s.monthly_recurring_revenue,
     s.annual_recurring_revenue,
+    s.start_date,
     coalesce(ce.total_refund_amount, 0) as total_refund_amount
 from account_info ar
 left join subscriptions s using (account_id)
