@@ -1,0 +1,16 @@
+sources:
+  - name: ravenstack
+    description: Source data for Ravenstack analytics
+    database: analytics
+    schema: js_raw
+    tables:
+      - name: accounts
+        description: Raw accounts data    
+      - name: subscriptions
+        description: Subscription data containing monthly and yearly revenue information
+      - name: churn_events
+        description: Churn events indicating churn date and refund amount for each account
+      - name: feature_usage
+        description: Feature usage data indicating which features are used by each account and when
+      - name: support_tickets
+        description: Support ticket data indicating when tickets were created, resolved, and the issue type for
