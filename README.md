@@ -1,12 +1,8 @@
-# 🥪 The Jaffle Shop 🦘
+# 🥪 ' Ravenstack Analysis ' 🦘
 
-_powered by the dbt Fusion engine_
+Data for this Analytics Sandbox was downloaded from [kaggle](https://www.kaggle.com/datasets/rivalytics/saas-subscription-and-churn-analytics-dataset/data/).  The data source was created by River @ Rivalytics.
 
-Welcome! This is a sandbox project for exploring the basic functionality of Fusion. It's based on a fictional restaurant called the Jaffle Shop that serves [jaffles](https://en.wikipedia.org/wiki/Pie_iron).
+The purpose of this project sandbox is to explore dbt and dbt Fusion.
 
-To get started:
-1. Set up your database connection in `~/.dbt/profiles.yml`. If you got here by running `dbt init`, you should already be good to go.
-2. Run `dbt build`. That's it!
-
-> [!NOTE]
-> If you're brand-new to dbt, we recommend starting with the [dbt Learn](https://learn.getdbt.com/) platform. It's a free, interactive way to learn dbt, and it's a great way to get started if you're new to the tool.
+1. [Ravenstack Analytics Dashboard](https://public.tableau.com/app/profile/juan.sandoval3447/viz/RavenstackRevenue/RevenueDashboard?publish=yes)
+> Dashboard representing overall revenue as well as insights impact by location, referral source and industry
